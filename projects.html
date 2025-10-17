@@ -1,0 +1,1195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hriday-Portfolio</title>
+  <link rel="shortcut icon" href="images/header/fav-icon.svg" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/media.css">
+</head>
+
+<body>
+  <!-- ========== Start header ========== -->
+  <header class="flex-center">
+    <div class="header-max-width">
+      <div class="logo-box">
+        <img loading="eager" src="images/header/logo.svg" alt="our website logo" title="website logo"
+          onclick="window.location.href='index.html'">
+      </div>
+      <nav class="desktop-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a class="navLi-active" href="projects.html">Projects</a></li>
+        </ul>
+      </nav>
+      <div class="nav-btn">
+        <button class="btn-style get-in-touch-btn">Let’s Talk</button>
+        <a href="tel:+916289737695"><i class="ri-phone-fill"></i></a>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <div class="nav-menus hamburger" onclick="document.getElementById('menu-toggle').click()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!-- offcanvas -->
+    <div class="nav-menu-right-slide offcanvas-right">
+      <div class="grid-box">
+        <div class="top-row">
+          <img src="images/header/logo.svg" alt="logo image" onclick="window.location.href='index.html'">
+        </div>
+        <div class="btm-row">
+          <nav class="mob-nav">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="index.html#about">About</a></li>
+              <li><a href="index.html#services">Services</a></li>
+              <li><a class="navLi-active" href="projects.html">Projects</a></li>
+            </ul>
+          </nav>
+
+          <div class="mob-contact-btn ">
+            <button onclick="location.href='#contact'" class="btn-style get-in-touch-btn">Let’s Talk</button>
+          </div>
+
+        </div>
+      </div>
+      <div class="circle"></div>
+    </div>
+
+
+  </header>
+  <!-- ========== End header ========== -->
+
+  <!-- ========== Start main ========== -->
+  <main>
+    <!-- ========== Start my-motto ========== -->
+    <section class="section-motto">
+      <div class="container">
+        <div class="motto-flex-box flex-center">
+          <div class="overflow-hidden">
+            <h1 class="project-hero-text-1">Design with <span><em>purpose</em></span>,</h1>
+          </div>
+          <div class="overflow-hidden">
+            <h1 class="project-hero-text-2">Code with <span><em>passion</em></span>.</h1>
+          </div>
+          <div class="overflow-hidden">
+            <p>I bring energy, creativity and dedication to every project I work on.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== End my-motto ========== -->
+
+    <!-- ========== Start section-projects ========== -->
+    <section class="section-project-show section-padding w-100 position-relative overflow-hidden z-3">
+      <div class="project-filter-bar flex-center w-100">
+        <div class="filter-btn-box flex-center w-100 position-relative nav nav-pills" role="tablist">
+
+          <!-- btn-1 -->
+          <button class="filter-btn-1 btn-style btn-outline active" data-bs-toggle="pill" data-bs-target="#project-all"
+            role="tab" aria-selected="true">
+            All
+          </button>
+
+          <!-- btn-4 -->
+          <button class="filter-btn-4 btn-style btn-outline" data-bs-toggle="pill" data-bs-target="#recent-projects"
+            type="button" role="tab" aria-selected="false">
+            Recently Completed
+          </button>
+
+          <!-- btn-2 -->
+          <button class="filter-btn-2 btn-style btn-outline" data-bs-toggle="pill" data-bs-target="#project-uiux"
+            type="button" role="tab" aria-selected="false">
+            UI/UX Design
+          </button>
+
+          <!-- btn-3 -->
+          <button class="filter-btn-3 btn-style btn-outline" data-bs-toggle="pill" data-bs-target="#project-frontend"
+            type="button" role="tab" aria-selected="false">
+            Frontend Development
+          </button>
+
+        </div>
+      </div>
+      <div class="container">
+        <div class="tab-content project-list-content-box pt-5">
+
+          <!-- content-box-1 all projects-->
+          <div class="tab-pane fade show active" id="project-all" role="tabpanel" tabindex="0">
+            <div class="project-two-row">
+              <!-- grid-box-content -->
+              <div class="top-grid-box tab-content">
+
+                <!-- inner-content-box-1 -->
+                <div class="tab-pane fade active show" id="project-all-inner-page-1" role="tabpanel" tabindex="0">
+                  <div class="tab-pane-grid-box w-100">
+                    <!-- project-1 -->
+                    <div class="project-card project-card-1" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                      data-tilt-perspective="1000" data-tilt-axis="x">
+                      <div class="project-img">
+                        <img src="images/project/front-end/project-2.webp" alt="my project cover image">
+                      </div>
+                      <div class="project-info">
+                        <h6>Hotel Hari – Luxury Hotel in Kolkata
+                        </h6>
+                        <p>A luxurious hotel website offering best rooms, spa treatments, fine dining and exceptional
+                          services.</p>
+                        <div class="tools-used flex-center w-100">
+                          <p>Built With:</p>
+                          <ul class="flex-center w-100">
+                            <li>Figma</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>Bootstrap</li>
+                            <li>Swiper</li>
+                            <li>ScrollReveal</li>
+                          </ul>
+                        </div>
+                        <div class="project-btns flex-center w-100 gap-3">
+                          <a href="https://hotel-hari.netlify.app/" class="btn-style btn-outline">Live
+                            Demo</a>
+                          <a href="https://github.com/hridaySr10/Hotel-Hari" class="btn-style">Preview Code</a>
+                        </div>
+                      </div>
+                      <div class="ribbon">Responsive Website</div>
+                    </div>
+                    <!-- project-2 -->
+                    <div class="project-card project-card-1" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                      data-tilt-perspective="1000" data-tilt-axis="x">
+                      <div class="project-img">
+                        <img src="images/Projects-page/project-01.jpg" alt="my project cover image">
+                      </div>
+                      <div class="project-info">
+                        <h6>EYEORA: Wear Your Vision
+                        </h6>
+                        <p>A e-commerce site that offers stylish glasses and sunglasses with frame
+                          options.</p>
+                        <div class="tools-used flex-center w-100">
+                          <p>Built With:</p>
+                          <ul class="flex-center w-100">
+                            <li>Figma</li>
+                            <li>Photoshop</li>
+                          </ul>
+                        </div>
+                        <div class="project-btns flex-center w-100 gap-3">
+                          <button class="btn-style btn-outline open-modal"
+                            data-video="images/project/modal-video/video-1.mp4"
+                            data-prototype="https://www.figma.com/proto/WA8vpiPJFUW4FmhACp6Wey/sunglass-website?node-id=64-66&t=3BW8S07z3UO5NMZ9-1">Preview
+                            Demo</button>
+                          <a href="https://www.figma.com/proto/WA8vpiPJFUW4FmhACp6Wey/sunglass-website?node-id=64-66&t=3BW8S07z3UO5NMZ9-1"
+                            class="btn-style">View
+                            Prototype</a>
+                        </div>
+                      </div>
+                      <div class="ribbon">website design</div>
+                    </div>
+                    <!-- project-3 -->
+                    <div class="project-card project-card-1" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                      data-tilt-perspective="1000" data-tilt-axis="x">
+                      <div class="project-img">
+                        <img src="images/project/recently completed/project-1.webp" alt="my project cover image">
+                      </div>
+                      <div class="project-info">
+                        <h6>Essentio – Robotic Vacuum Cleanerson
+                        </h6>
+                        <p>A responsive website for smart home cleaning solutions, featuring AI-powered robotic vacuums
+                          with
+                          effortless navigation and app control for spotless homes.</p>
+                        <div class="tools-used flex-center w-100">
+                          <p>Built With:</p>
+                          <ul class="flex-center w-100">
+                            <li>Figma</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>Bootstrap</li>
+                            <li>Splide</li>
+                            <li>ScrollReveal</li>
+                          </ul>
+                        </div>
+                        <div class="project-btns flex-center w-100 gap-3">
+                          <a href="https://essentio.netlify.app/" class="btn-style btn-outline">Live
+                            Demo</a>
+                          <a href="https://github.com/hridaySr10/ESSENTIO" class="btn-style">Preview Code</a>
+                        </div>
+                      </div>
+                      <div class="ribbon">Responsive Website</div>
+                    </div>
+                    <!-- project-4 -->
+                    <div class="project-card project-card-5" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                      data-tilt-perspective="1000" data-tilt-axis="x">
+                      <div class="project-img">
+                        <img src="images/project/uiux/project-5.webp" alt="my project cover image">
+                      </div>
+                      <div class="project-info">
+                        <h6>Health Mate – Online Medical Platform
+                        </h6>
+                        <p>A convenient and reliable app designed to deliver medicines, offer 24/7 medical services, and
+                          provide easy access to consultations and lab tests.</p>
+                        <div class="tools-used flex-center w-100">
+                          <p>Built With:</p>
+                          <ul class="flex-center w-100">
+                            <li>Figma</li>
+                            <li>Photoshop</li>
+                          </ul>
+                        </div>
+                        <div class="project-btns flex-center w-100 gap-3">
+                          <button class="btn-style btn-outline open-modal"
+                            data-video="images/project/modal-video/video-5.mp4"
+                            data-prototype="https://www.figma.com/proto/WcjpByTYk8yfLR2dIe8SAC/HealthMate?node-id=39-480&t=lgovo2aHXPtVT0Oa-1">Preview
+                            Demo</button>
+                          <a href="https://www.figma.com/proto/WcjpByTYk8yfLR2dIe8SAC/HealthMate?node-id=39-480&t=lgovo2aHXPtVT0Oa-1"
+                            class="btn-style">View
+                            Prototype</a>
+                        </div>
+                      </div>
+                      <div class="ribbon">App design</div>
+                    </div>
+                    <!-- project-5 -->
+                    <div class="project-card project-card-2" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                      data-tilt-perspective="1000" data-tilt-axis="x">
+                      <div class="project-img">
+                        <img src="images/Projects-page/project-3.jpg" alt="my project cover image">
+                      </div>
+                      <div class="project-info">
+                        <h6>Noize: music streaming website
+                        </h6>
+                        <p>A e-commerce site that offers stylish glasses and sunglasses with frame
+                          options.</p>
+                        <div class="tools-used flex-center ">
+                          <p>Built With:</p>
+                          <ul class="flex-center w-100">
+                            <li>Figma</li>
+                            <li>Photoshop</li>
+                            <li>Html</li>
+                            <li>Css</li>
+                            <li>Javascript</li>
+                            <li>swiper.js</li>
+                          </ul>
+                        </div>
+                        <div class="project-btns flex-center w-100 gap-3">
+                          <a href="https://noize-online.netlify.app/" class="btn-style btn-outline">Live
+                            Demo</a>
+                          <a href="https://github.com/hridaySr10/Noise-responsive-website" class="btn-style">Preview
+                            Code</a>
+                        </div>
+                      </div>
+                      <div class="ribbon">Responsive Website</div>
+                    </div>
+                    <!-- project-6 -->
+                    <div class="project-card project-card-1" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                      data-tilt-perspective="1000" data-tilt-axis="x">
+                      <div class="project-img">
+                        <img src="images/project/uiux/project-6.webp" alt="my project cover image">
+                      </div>
+                      <div class="project-info">
+                        <h6>Navi – Financial Services App
+                        </h6>
+                        <p>This app design is all-in-one financial tool. Get fast, personalized loans with instant
+                          approval, easily transfer money, handle your recharges, and explore mutual funds. Everything
+                          is transparent, with zero hidden fees.</p>
+                        <div class="tools-used flex-center w-100">
+                          <p>Built With:</p>
+                          <ul class="flex-center w-100">
+                            <li>Figma</li>
+                            <li>Photoshop</li>
+                          </ul>
+                        </div>
+                        <div class="project-btns flex-center w-100 gap-3">
+                          <button class="btn-style btn-outline open-modal"
+                            data-video="images/project/modal-video/video-7.mp4"
+                            data-prototype="https://www.figma.com/proto/rd6gqnSf1etLJVX0ELMQdw/Navi?node-id=193-65&t=wlGimPkDtXnjFsXJ-1">Preview
+                            Demo</button>
+                          <a href="https://www.figma.com/proto/rd6gqnSf1etLJVX0ELMQdw/Navi?node-id=193-65&t=wlGimPkDtXnjFsXJ-1"
+                            class="btn-style">View
+                            Prototype</a>
+                        </div>
+                      </div>
+                      <div class="ribbon">App design</div>
+                    </div>
+                    <!-- end -->
+                  </div>
+                </div>
+
+                <!-- inner-content-box-2 -->
+                <div class="tab-pane fade" id="project-all-inner-page-2" role="tabpanel" tabindex="0">
+                  <div class="tab-pane-grid-box w-100">
+                    <!-- project-7 -->
+                    <div class="project-card project-card-2" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                      data-tilt-perspective="1000" data-tilt-axis="x">
+                      <div class="project-img">
+                        <img src="images/project/uiux/project-1.webp" alt="my project cover image">
+                      </div>
+                      <div class="project-info">
+                        <h6>VIBO: music streaming app
+                        </h6>
+                        <p>A sleek music streaming app designed for seamless playback, personalized playlists and a rich
+                          collection of songs.</p>
+                        <div class="tools-used flex-center w-100">
+                          <p>Built With:</p>
+                          <ul class="flex-center w-100">
+                            <li>Figma</li>
+                            <li>Photoshop</li>
+                          </ul>
+                        </div>
+                        <div class="project-btns flex-center w-100 gap-3">
+                          <button class="btn-style btn-outline open-modal"
+                            data-video="images/project/modal-video/video-2.mp4"
+                            data-prototype="https://www.figma.com/proto/sI2uPmCWCTipMkxCCy5YQ8/MY-UI-components?node-id=416-735&t=cmOaHgq3QyMekJTK-1">Preview
+                            Demo</button>
+                          <a href="https://www.figma.com/proto/sI2uPmCWCTipMkxCCy5YQ8/MY-UI-components?node-id=416-735&t=cmOaHgq3QyMekJTK-1"
+                            class="btn-style">View
+                            Prototype</a>
+                        </div>
+                      </div>
+                      <div class="ribbon">App design</div>
+                    </div>
+                    <!-- project-8 -->
+                    <div class="project-card project-card-3" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                      data-tilt-perspective="1000" data-tilt-axis="x">
+                      <div class="project-img">
+                        <img src="images/project/uiux/project-3.webp" alt="my project cover image">
+                      </div>
+                      <div class="project-info">
+                        <h6>iLearn – Online Learning Platform
+                        </h6>
+                        <p>A website designed to transform career with innovative courses, expert instructors and
+                          offering
+                          top-rated learning experiences for all skill levels.</p>
+                        <div class="tools-used flex-center w-100">
+                          <p>Built With:</p>
+                          <ul class="flex-center w-100">
+                            <li>Figma</li>
+                            <li>Photoshop</li>
+                          </ul>
+                        </div>
+                        <div class="project-btns flex-center w-100 gap-3">
+                          <button class="btn-style btn-outline open-modal"
+                            data-video="images/project/modal-video/video-3.mp4"
+                            data-prototype="https://www.figma.com/proto/23ltgbfEBZAag7fdxCNAd4/iLearn-website?node-id=0-1&t=evuKpeu2DM9QVseS-1">Preview
+                            Demo</button>
+                          <a href="https://www.figma.com/proto/23ltgbfEBZAag7fdxCNAd4/iLearn-website?node-id=0-1&t=evuKpeu2DM9QVseS-1"
+                            class="btn-style">View
+                            Prototype</a>
+                        </div>
+                      </div>
+                      <div class="ribbon">Website design</div>
+                    </div>
+                    <!-- project-9 -->
+                    <div class="project-card project-card-3" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                      data-tilt-perspective="1000" data-tilt-axis="x">
+                      <div class="project-img">
+                        <img src="images/project/front-end/project-3.webp" alt="my project cover image">
+                      </div>
+                      <div class="project-info">
+                        <h6>Velora - Beauty Salon & Spa
+                        </h6>
+                        <p>It's a responsive website for beauty and spa services where client feel smooth experience and
+                          effortlessly discover all our treatments</p>
+                        <div class="tools-used flex-center w-100">
+                          <p>Built With:</p>
+                          <ul class="flex-center w-100">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>Bootstrap</li>
+                            <li>Splide</li>
+                            <li>ScrollReveal</li>
+                          </ul>
+                        </div>
+                        <div class="project-btns flex-center w-100 gap-3">
+                          <a href="https://velora-salon.netlify.app/" class="btn-style btn-outline">Live
+                            Demo</a>
+                          <a href="https://github.com/hridaySr10/VELORA--Beauty-Salon-for-Women"
+                            class="btn-style">Preview
+                            Code</a>
+                        </div>
+                      </div>
+                      <div class="ribbon">Responsive Website</div>
+                    </div>
+                    <!-- project-10 -->
+                    <div class="project-card project-card-4" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                      data-tilt-perspective="1000" data-tilt-axis="x">
+                      <div class="project-img">
+                        <img src="images/project/uiux/project-4.webp" alt="my project cover image">
+                      </div>
+                      <div class="project-info">
+                        <h6>Royal Bloom – Kids Fashion & Essentials
+                        </h6>
+                        <p>A stylish and inclusive e-commerce platform offering premium kids' clothing, accessories, and
+                          essentials, designed for all abilities with unbeatable deals.</p>
+                        <div class="tools-used flex-center w-100">
+                          <p>Built With:</p>
+                          <ul class="flex-center w-100">
+                            <li>Figma</li>
+                            <li>Photoshop</li>
+                          </ul>
+                        </div>
+                        <div class="project-btns flex-center w-100 gap-3">
+                          <button class="btn-style btn-outline open-modal"
+                            data-video="images/project/modal-video/video-4.mp4"
+                            data-prototype="https://www.figma.com/proto/23ltgbfEBZAag7fdxCNAd4/iLearn-website?node-id=0-1&t=evuKpeu2DM9QVseS-1">Preview
+                            Demo</button>
+                          <a href="https://www.figma.com/proto/23ltgbfEBZAag7fdxCNAd4/iLearn-website?node-id=0-1&t=evuKpeu2DM9QVseS-1"
+                            class="btn-style">View
+                            Prototype</a>
+                        </div>
+                      </div>
+                      <div class="ribbon">Website design</div>
+                    </div>
+                    <!-- project-11 -->
+                    <div class="project-card project-card-3" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                      data-tilt-perspective="1000" data-tilt-axis="x">
+                      <div class="project-img">
+                        <img src="images/project/front-end/project-4.webp" alt="my project cover image">
+                      </div>
+                      <div class="project-info">
+                        <h6>Azure Roast – Coffee Subscriptions & Online Store
+                        </h6>
+                        <p>This is an responsive e-commerce site built for coffee lovers. It offers fresh coffee
+                          subscriptions, find the best brewing tips, and connect with our community.</p>
+                        <div class="tools-used flex-center w-100">
+                          <p>Built With:</p>
+                          <ul class="flex-center w-100">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>Bootstrap</li>
+                            <li>Swiper</li>
+                            <li>ScrollReveal</li>
+                          </ul>
+                        </div>
+                        <div class="project-btns flex-center w-100 gap-3">
+                          <a href="https://azure-roast.netlify.app/" class="btn-style btn-outline">Live
+                            Demo</a>
+                          <a href="https://github.com/hridaySr10/Azure-Roast-fully-responsive-website"
+                            class="btn-style">Preview
+                            Code</a>
+                        </div>
+                      </div>
+                      <div class="ribbon">Responsive Website</div>
+                    </div>
+                    <!-- project-12 -->
+                    <div class="project-card project-card-4" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                      data-tilt-perspective="1000" data-tilt-axis="x">
+                      <div class="project-img">
+                        <img src="images/Projects-page/project-2.jpg" alt="my project cover image">
+                      </div>
+                      <div class="project-info">
+                        <h6>Nike: Redesign website
+                        </h6>
+                        <p>A modernized redesign of the Nike website, offering an enhanced shopping experience with
+                          stunning
+                          visuals, seamless navigation.</p>
+                        <div class="tools-used flex-center w-100">
+                          <p>Built With:</p>
+                          <ul class="flex-center w-100">
+                            <li>Figma</li>
+                            <li>Photoshop</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                          </ul>
+                        </div>
+                        <div class="project-btns flex-center w-100 gap-3">
+                          <a href="https://velora-salon.netlify.app/" class="btn-style btn-outline">Preview
+                            Demo</a>
+                          <a href="https://github.com/hridaySr10/Nike-redesign" class="btn-style">Preview
+                            Code</a>
+                        </div>
+                      </div>
+                      <div class="ribbon">Static Website</div>
+                    </div>
+                    <!-- end -->
+                  </div>
+
+                </div>
+
+                <!-- inner-content-box-3 -->
+                <div class="tab-pane fade" id="project-all-inner-page-3" role="tabpanel" tabindex="0">
+                  <div class="tab-pane-grid-box w-100">
+                    <!-- project-13 -->
+                    <div class="project-card project-card-6" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                      data-tilt-perspective="1000" data-tilt-axis="x">
+                      <div class="project-img">
+                        <img src="images/project/uiux/project-2.webp" alt="my project cover image">
+                      </div>
+                      <div class="project-info">
+                        <h6>Mystic India – Travel & Tour Planning
+                        </h6>
+                        <p>This design is for a travel website that makes it easy to plan your perfect trip to India. It
+                          features custom trip planning, a variety of tour packages, and 24/7 support to ensure you have
+                          an
+                          unforgettable travel experience. </p>
+                        <div class="tools-used flex-center w-100">
+                          <p>Built With:</p>
+                          <ul class="flex-center w-100">
+                            <li>Figma</li>
+                            <li>Photoshop</li>
+                            <li>Relume</li>
+                          </ul>
+                        </div>
+                        <div class="project-btns flex-center w-100 gap-3">
+                          <button class="btn-style btn-outline open-modal"
+                            data-video="images/project/modal-video/video-6.mp4"
+                            data-prototype="https://www.figma.com/proto/DYH1kHtNmsT9G9CyDnXSaU/Mystic-India?node-id=0-1&t=Sn8B7qiHu064OZ3V-1">Preview
+                            Demo</button>
+                          <a href="https://www.figma.com/proto/DYH1kHtNmsT9G9CyDnXSaU/Mystic-India?node-id=0-1&t=Sn8B7qiHu064OZ3V-1"
+                            class="btn-style">View
+                            Prototype</a>
+                        </div>
+                      </div>
+                      <div class="ribbon">Website design</div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- pagination-tabs all project -->
+
+              <div class="btm-pagination nav nav-pills flex-center" role="tablist">
+
+                <!-- inner-tab-1 -->
+                <button class="btn-style btn-outline active pagination-tab pagination-tab-active" data-bs-toggle="pill"
+                  data-bs-target="#project-all-inner-page-1" role="tab" aria-selected="true">
+                  1
+                </button>
+                <!-- inner-tab-2 -->
+                <button class="btn-style btn-outline pagination-tab" data-bs-toggle="pill"
+                  data-bs-target="#project-all-inner-page-2" role="tab" aria-selected="true">
+                  2
+                </button>
+                <!-- inner-tab-3 -->
+                <button class="btn-style btn-outline pagination-tab" data-bs-toggle="pill"
+                  data-bs-target="#project-all-inner-page-3" role="tab" aria-selected="true">
+                  3
+                </button>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- content-box-4 recently completed -->
+          <div class="tab-pane fade" id="recent-projects" role="tabpanel" tabindex="0">
+            <div class="tab-pane-grid-box w-100">
+              <div class="project-card project-card-1" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                data-tilt-perspective="1000" data-tilt-axis="x">
+                <div class="project-img">
+                  <img src="images/project/recently completed/project-1.webp" alt="my project cover image">
+                </div>
+                <div class="project-info">
+                  <h6>Essentio – Robotic Vacuum Cleanerson
+                  </h6>
+                  <p>A responsive website for smart home cleaning solutions, featuring AI-powered robotic vacuums with
+                    effortless navigation and app control for spotless homes.</p>
+                  <div class="tools-used flex-center w-100">
+                    <p>Built With:</p>
+                    <ul class="flex-center w-100">
+                      <li>Figma</li>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>Javascript</li>
+                      <li>Bootstrap</li>
+                      <li>Splide</li>
+                      <li>ScrollReveal</li>
+                    </ul>
+                  </div>
+                  <div class="project-btns flex-center w-100 gap-3">
+                    <a href="https://essentio.netlify.app/" class="btn-style btn-outline">Live
+                      Demo</a>
+                    <a href="https://github.com/hridaySr10/ESSENTIO" class="btn-style">Preview Code</a>
+                  </div>
+                </div>
+                <div class="ribbon">Responsive Website</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- content-box-2 ui/ux -->
+          <div class="tab-pane fade" id="project-uiux" role="tabpanel" tabindex="0">
+            <div class="project-two-row">
+              <!-- grid-box-content -->
+              <div class="top-grid-box tab-content">
+
+                <!-- inner-content-box-1 -->
+                <div class="tab-pane fade active show" id="ui/ux-inner-page-1" role="tabpanel" tabindex="0">
+                  <div class="tab-pane-grid-box w-100">
+
+                    <div class="project-card project-card-1" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                      data-tilt-perspective="1000" data-tilt-axis="x">
+                      <div class="project-img">
+                        <img src="images/Projects-page/project-01.jpg" alt="my project cover image">
+                      </div>
+                      <div class="project-info">
+                        <h6>EYEORA: Wear Your Vision
+                        </h6>
+                        <p>A e-commerce site that offers stylish glasses and sunglasses with frame
+                          options.</p>
+                        <div class="tools-used flex-center w-100">
+                          <p>Built With:</p>
+                          <ul class="flex-center w-100">
+                            <li>Figma</li>
+                            <li>Photoshop</li>
+                          </ul>
+                        </div>
+                        <div class="project-btns flex-center w-100 gap-3">
+                          <button class="btn-style btn-outline open-modal"
+                            data-video="images/project/modal-video/video-1.mp4"
+                            data-prototype="https://www.figma.com/proto/WA8vpiPJFUW4FmhACp6Wey/sunglass-website?node-id=64-66&t=3BW8S07z3UO5NMZ9-1">Preview
+                            Demo</button>
+                          <a href="https://www.figma.com/proto/WA8vpiPJFUW4FmhACp6Wey/sunglass-website?node-id=64-66&t=3BW8S07z3UO5NMZ9-1"
+                            class="btn-style">View
+                            Prototype</a>
+                        </div>
+                      </div>
+                      <div class="ribbon">website design</div>
+                    </div>
+
+                    <div class="project-card project-card-2" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                      data-tilt-perspective="1000" data-tilt-axis="x">
+                      <div class="project-img">
+                        <img src="images/project/uiux/project-1.webp" alt="my project cover image">
+                      </div>
+                      <div class="project-info">
+                        <h6>VIBO: music streaming app
+                        </h6>
+                        <p>A sleek music streaming app designed for seamless playback, personalized playlists and a rich
+                          collection of songs.</p>
+                        <div class="tools-used flex-center w-100">
+                          <p>Built With:</p>
+                          <ul class="flex-center w-100">
+                            <li>Figma</li>
+                            <li>Photoshop</li>
+                          </ul>
+                        </div>
+                        <div class="project-btns flex-center w-100 gap-3">
+                          <button class="btn-style btn-outline open-modal"
+                            data-video="images/project/modal-video/video-2.mp4"
+                            data-prototype="https://www.figma.com/proto/sI2uPmCWCTipMkxCCy5YQ8/MY-UI-components?node-id=416-735&t=cmOaHgq3QyMekJTK-1">Preview
+                            Demo</button>
+                          <a href="https://www.figma.com/proto/sI2uPmCWCTipMkxCCy5YQ8/MY-UI-components?node-id=416-735&t=cmOaHgq3QyMekJTK-1"
+                            class="btn-style">View
+                            Prototype</a>
+                        </div>
+                      </div>
+                      <div class="ribbon">App design</div>
+                    </div>
+
+                    <div class="project-card project-card-3" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                      data-tilt-perspective="1000" data-tilt-axis="x">
+                      <div class="project-img">
+                        <img src="images/project/uiux/project-3.webp" alt="my project cover image">
+                      </div>
+                      <div class="project-info">
+                        <h6>iLearn – Online Learning Platform
+                        </h6>
+                        <p>A website designed to transform career with innovative courses, expert instructors and
+                          offering
+                          top-rated learning experiences for all skill levels.</p>
+                        <div class="tools-used flex-center w-100">
+                          <p>Built With:</p>
+                          <ul class="flex-center w-100">
+                            <li>Figma</li>
+                            <li>Photoshop</li>
+                          </ul>
+                        </div>
+                        <div class="project-btns flex-center w-100 gap-3">
+                          <button class="btn-style btn-outline open-modal"
+                            data-video="images/project/modal-video/video-3.mp4"
+                            data-prototype="https://www.figma.com/proto/23ltgbfEBZAag7fdxCNAd4/iLearn-website?node-id=0-1&t=evuKpeu2DM9QVseS-1">Preview
+                            Demo</button>
+                          <a href="https://www.figma.com/proto/23ltgbfEBZAag7fdxCNAd4/iLearn-website?node-id=0-1&t=evuKpeu2DM9QVseS-1"
+                            class="btn-style">View
+                            Prototype</a>
+                        </div>
+                      </div>
+                      <div class="ribbon">Website design</div>
+                    </div>
+
+                    <div class="project-card project-card-4" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                      data-tilt-perspective="1000" data-tilt-axis="x">
+                      <div class="project-img">
+                        <img src="images/project/uiux/project-4.webp" alt="my project cover image">
+                      </div>
+                      <div class="project-info">
+                        <h6>Royal Bloom – Kids Fashion & Essentials
+                        </h6>
+                        <p>A stylish and inclusive e-commerce platform offering premium kids' clothing, accessories, and
+                          essentials, designed for all abilities with unbeatable deals.</p>
+                        <div class="tools-used flex-center w-100">
+                          <p>Built With:</p>
+                          <ul class="flex-center w-100">
+                            <li>Figma</li>
+                            <li>Photoshop</li>
+                          </ul>
+                        </div>
+                        <div class="project-btns flex-center w-100 gap-3">
+                          <button class="btn-style btn-outline open-modal"
+                            data-video="images/project/modal-video/video-4.mp4"
+                            data-prototype="https://www.figma.com/proto/23ltgbfEBZAag7fdxCNAd4/iLearn-website?node-id=0-1&t=evuKpeu2DM9QVseS-1">Preview
+                            Demo</button>
+                          <a href="https://www.figma.com/proto/23ltgbfEBZAag7fdxCNAd4/iLearn-website?node-id=0-1&t=evuKpeu2DM9QVseS-1"
+                            class="btn-style">View
+                            Prototype</a>
+                        </div>
+                      </div>
+                      <div class="ribbon">Website design</div>
+                    </div>
+
+                    <div class="project-card project-card-5" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                      data-tilt-perspective="1000" data-tilt-axis="x">
+                      <div class="project-img">
+                        <img src="images/project/uiux/project-5.webp" alt="my project cover image">
+                      </div>
+                      <div class="project-info">
+                        <h6>Health Mate – Online Medical Platform
+                        </h6>
+                        <p>A convenient and reliable app designed to deliver medicines, offer 24/7 medical services, and
+                          provide easy access to consultations and lab tests.</p>
+                        <div class="tools-used flex-center w-100">
+                          <p>Built With:</p>
+                          <ul class="flex-center w-100">
+                            <li>Figma</li>
+                            <li>Photoshop</li>
+                          </ul>
+                        </div>
+                        <div class="project-btns flex-center w-100 gap-3">
+                          <button class="btn-style btn-outline open-modal"
+                            data-video="images/project/modal-video/video-5.mp4"
+                            data-prototype="https://www.figma.com/proto/WcjpByTYk8yfLR2dIe8SAC/HealthMate?node-id=39-480&t=lgovo2aHXPtVT0Oa-1">Preview
+                            Demo</button>
+                          <a href="https://www.figma.com/proto/WcjpByTYk8yfLR2dIe8SAC/HealthMate?node-id=39-480&t=lgovo2aHXPtVT0Oa-1"
+                            class="btn-style">View
+                            Prototype</a>
+                        </div>
+                      </div>
+                      <div class="ribbon">App design</div>
+                    </div>
+
+                    <div class="project-card project-card-6" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                      data-tilt-perspective="1000" data-tilt-axis="x">
+                      <div class="project-img">
+                        <img src="images/project/uiux/project-2.webp" alt="my project cover image">
+                      </div>
+                      <div class="project-info">
+                        <h6>Mystic India – Travel & Tour Planning
+                        </h6>
+                        <p>This design is for a travel website that makes it easy to plan your perfect trip to India. It
+                          features custom trip planning, a variety of tour packages, and 24/7 support to ensure you have
+                          an
+                          unforgettable travel experience. </p>
+                        <div class="tools-used flex-center w-100">
+                          <p>Built With:</p>
+                          <ul class="flex-center w-100">
+                            <li>Figma</li>
+                            <li>Photoshop</li>
+                            <li>Relume</li>
+                          </ul>
+                        </div>
+                        <div class="project-btns flex-center w-100 gap-3">
+                          <button class="btn-style btn-outline open-modal"
+                            data-video="images/project/modal-video/video-6.mp4"
+                            data-prototype="https://www.figma.com/proto/DYH1kHtNmsT9G9CyDnXSaU/Mystic-India?node-id=0-1&t=Sn8B7qiHu064OZ3V-1">Preview
+                            Demo</button>
+                          <a href="https://www.figma.com/proto/DYH1kHtNmsT9G9CyDnXSaU/Mystic-India?node-id=0-1&t=Sn8B7qiHu064OZ3V-1"
+                            class="btn-style">View
+                            Prototype</a>
+                        </div>
+                      </div>
+                      <div class="ribbon">Website design</div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <!-- inner-content-box-2 -->
+                <div class="tab-pane fade" id="ui/ux-inner-page-2" role="tabpanel" tabindex="0">
+                  <div class="tab-pane-grid-box w-100">
+
+                    <div class="project-card project-card-1" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                      data-tilt-perspective="1000" data-tilt-axis="x">
+                      <div class="project-img">
+                        <img src="images/project/uiux/project-6.webp" alt="my project cover image">
+                      </div>
+                      <div class="project-info">
+                        <h6>Navi – Financial Services App
+                        </h6>
+                        <p>This app design is all-in-one financial tool. Get fast, personalized loans with instant
+                          approval, easily transfer money, handle your recharges, and explore mutual funds. Everything
+                          is transparent, with zero hidden fees.</p>
+                        <div class="tools-used flex-center w-100">
+                          <p>Built With:</p>
+                          <ul class="flex-center w-100">
+                            <li>Figma</li>
+                            <li>Photoshop</li>
+                          </ul>
+                        </div>
+                        <div class="project-btns flex-center w-100 gap-3">
+                          <button class="btn-style btn-outline open-modal"
+                            data-video="images/project/modal-video/video-7.mp4"
+                            data-prototype="https://www.figma.com/proto/rd6gqnSf1etLJVX0ELMQdw/Navi?node-id=193-65&t=wlGimPkDtXnjFsXJ-1">Preview
+                            Demo</button>
+                          <a href="https://www.figma.com/proto/rd6gqnSf1etLJVX0ELMQdw/Navi?node-id=193-65&t=wlGimPkDtXnjFsXJ-1"
+                            class="btn-style">View
+                            Prototype</a>
+                        </div>
+                      </div>
+                      <div class="ribbon">App design</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- pagination-tabs for ui/ux -->
+
+              <div class="btm-pagination nav nav-pills flex-center" role="tablist">
+
+                <!-- inner-tab-1 -->
+                <button class="btn-style btn-outline active pagination-tab pagination-tab-active" data-bs-toggle="pill"
+                  data-bs-target="#ui/ux-inner-page-1" role="tab" aria-selected="true">
+                  1
+                </button>
+                <!-- inner-tab-2 -->
+                <button class="btn-style btn-outline pagination-tab" data-bs-toggle="pill"
+                  data-bs-target="#ui/ux-inner-page-2" role="tab" aria-selected="true">
+                  2
+                </button>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- content-box-3 front-end -->
+          <div class="tab-pane fade" id="project-frontend" role="tabpanel" tabindex="0">
+            <div class="tab-pane-grid-box w-100">
+
+              <!-- front-end-project-1 -->
+              <div class="project-card project-card-1" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                data-tilt-perspective="1000" data-tilt-axis="x">
+                <div class="project-img">
+                  <img src="images/project/front-end/project-2.webp" alt="my project cover image">
+                </div>
+                <div class="project-info">
+                  <h6>Hotel Hari – Luxury Hotel in Kolkata
+                  </h6>
+                  <p>A luxurious hotel website offering best rooms, spa treatments, fine dining and exceptional
+                    services.</p>
+                  <div class="tools-used flex-center w-100">
+                    <p>Built With:</p>
+                    <ul class="flex-center w-100">
+                      <li>Figma</li>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>Javascript</li>
+                      <li>Bootstrap</li>
+                      <li>Swiper</li>
+                      <li>ScrollReveal</li>
+                    </ul>
+                  </div>
+                  <div class="project-btns flex-center w-100 gap-3">
+                    <a href="https://hotel-hari.netlify.app/" class="btn-style btn-outline">Live
+                      Demo</a>
+                    <a href="https://github.com/hridaySr10/Hotel-Hari" class="btn-style">Preview Code</a>
+                  </div>
+                </div>
+                <div class="ribbon">Responsive Website</div>
+              </div>
+
+              <!-- front-end-project-2 -->
+              <div class="project-card project-card-2" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                data-tilt-perspective="1000" data-tilt-axis="x">
+                <div class="project-img">
+                  <img src="images/Projects-page/project-3.jpg" alt="my project cover image">
+                </div>
+                <div class="project-info">
+                  <h6>Noize: music streaming website
+                  </h6>
+                  <p>A e-commerce site that offers stylish glasses and sunglasses with frame
+                    options.</p>
+                  <div class="tools-used flex-center ">
+                    <p>Built With:</p>
+                    <ul class="flex-center w-100">
+                      <li>Figma</li>
+                      <li>Photoshop</li>
+                      <li>Html</li>
+                      <li>Css</li>
+                      <li>Javascript</li>
+                      <li>swiper.js</li>
+                    </ul>
+                  </div>
+                  <div class="project-btns flex-center w-100 gap-3">
+                    <a href="https://noize-online.netlify.app/" class="btn-style btn-outline">Live
+                      Demo</a>
+                    <a href="https://github.com/hridaySr10/Noise-responsive-website" class="btn-style">Preview Code</a>
+                  </div>
+                </div>
+                <div class="ribbon">Responsive Website</div>
+              </div>
+
+              <!-- front-end-project-3 -->
+              <div class="project-card project-card-3" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                data-tilt-perspective="1000" data-tilt-axis="x">
+                <div class="project-img">
+                  <img src="images/project/front-end/project-3.webp" alt="my project cover image">
+                </div>
+                <div class="project-info">
+                  <h6>Velora - Beauty Salon & Spa
+                  </h6>
+                  <p>It's a responsive website for beauty and spa services where client feel smooth experience and
+                    effortlessly discover all our treatments</p>
+                  <div class="tools-used flex-center w-100">
+                    <p>Built With:</p>
+                    <ul class="flex-center w-100">
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>Javascript</li>
+                      <li>Bootstrap</li>
+                      <li>Splide</li>
+                      <li>ScrollReveal</li>
+                    </ul>
+                  </div>
+                  <div class="project-btns flex-center w-100 gap-3">
+                    <a href="https://velora-salon.netlify.app/" class="btn-style btn-outline">Live
+                      Demo</a>
+                    <a href="https://github.com/hridaySr10/VELORA--Beauty-Salon-for-Women" class="btn-style">Preview
+                      Code</a>
+                  </div>
+                </div>
+                <div class="ribbon">Responsive Website</div>
+              </div>
+
+              <!-- front-end-project-4 -->
+              <div class="project-card project-card-4" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                data-tilt-perspective="1000" data-tilt-axis="x">
+                <div class="project-img">
+                  <img src="images/Projects-page/project-2.jpg" alt="my project cover image">
+                </div>
+                <div class="project-info">
+                  <h6>Nike: Redesign website
+                  </h6>
+                  <p>A modernized redesign of the Nike website, offering an enhanced shopping experience with stunning
+                    visuals, seamless navigation.</p>
+                  <div class="tools-used flex-center w-100">
+                    <p>Built With:</p>
+                    <ul class="flex-center w-100">
+                      <li>Figma</li>
+                      <li>Photoshop</li>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                    </ul>
+                  </div>
+                  <div class="project-btns flex-center w-100 gap-3">
+                    <button class="btn-style btn-outline open-modal"
+                      data-video="images/project/modal-video/video-8.mp4">Preview Demo</button>
+                    <a href="https://github.com/hridaySr10/Nike-redesign" class="btn-style">Preview
+                      Code</a>
+                  </div>
+                </div>
+                <div class="ribbon">Static Website</div>
+              </div>
+
+              <!-- front-end-project-5 -->
+              <div class="project-card project-card-3" data-tilt data-tilt-max="5" data-tilt-speed="400"
+                data-tilt-perspective="1000" data-tilt-axis="x">
+                <div class="project-img">
+                  <img src="images/project/front-end/project-4.webp" alt="my project cover image">
+                </div>
+                <div class="project-info">
+                  <h6>Azure Roast – Coffee Subscriptions & Online Store
+                  </h6>
+                  <p>This is an responsive e-commerce site built for coffee lovers. It offers fresh coffee
+                    subscriptions, find the best brewing tips, and connect with our community.</p>
+                  <div class="tools-used flex-center w-100">
+                    <p>Built With:</p>
+                    <ul class="flex-center w-100">
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>Javascript</li>
+                      <li>Bootstrap</li>
+                      <li>Swiper</li>
+                      <li>ScrollReveal</li>
+                    </ul>
+                  </div>
+                  <div class="project-btns flex-center w-100 gap-3">
+                    <a href="https://azure-roast.netlify.app/" class="btn-style btn-outline">Live
+                      Demo</a>
+                    <a href="https://github.com/hridaySr10/Azure-Roast-fully-responsive-website"
+                      class="btn-style">Preview
+                      Code</a>
+                  </div>
+                </div>
+                <div class="ribbon">Responsive Website</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- project-modal start -->
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <div class="modal-content-grid-box">
+
+            <div class="project-video-box w-100 h-100 flex-center">
+              <video autoplay loop id="modalVideo" class="modal-video" preload="auto">
+                <source src="" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+
+            <div class="modal-btns w-100 d-flex justify-content-end gap-3 gap-sm-2">
+              <a href="" class="btn-style modal-prototype-btn">View Prototype</a>
+              <button class="btn-style btn-outline close">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- project-modal end
+    </section>
+    <!-- ========== End section-projects ========== -->
+  </main>
+  <!-- ========== End main ========== -->
+  <!-- ========== Start footer ========== -->
+  <footer class="section-padding position-relative z-3">
+    <div class="container">
+      <div class="footer-grid-box">
+        <div class="top-row">
+          <p class="footer-note footer-note-desktop">Thanks for checking out my journey. I’m always open to new ideas,
+            teamwork, and
+            challenges. <span>Let’s
+              create
+              something meaningful together.</span></p>
+          <div class="footer-btn w-100 flex-center">
+            <button class="btn-style btn-outline get-in-touch-btn">Let’s
+              Work Together</button>
+          </div>
+
+
+        </div>
+        <div class="btm-row footer-btm-slide-up">
+          <p>© <span></span> Hriday Sarkar</p>
+          <ul>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="index.html#services">Services</a></li>
+          </ul>
+          <div class="social">
+            <a href="https://github.com/hridaySr10"><i class="ri-github-line"></i></a>
+            <a
+              href="https://www.linkedin.com/in/hriday-sarkar-1788ba354/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B5tWHqxUnReuv1j%2B1Qpn3pA%3D%3D"><i
+                class="ri-linkedin-box-line"></i></a>
+            <a href="https://www.instagram.com/hridayuxui_/#"><i class="ri-instagram-line"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="back-to-top">
+      <i class="ri-arrow-up-double-line"></i>
+    </div>
+  </footer>
+  <!-- ========== End footer ========== -->
+  <!-- modal start for get in touch btn -->
+  <div class="get-in-touch-modal-box">
+    <div class="modal-box-background-overlay flex-center">
+      <div class="modal-box">
+        <div class="section-form">
+          <div class="form-grid-box">
+            <div class="left-col-info">
+              <div class="top">
+                <h6>Got a Project in Mind?</h6>
+                <p>I'd love to hear from you. Fill out the form and I'll get back to you as soon as possible.</p>
+              </div>
+              <div class="btm">
+                <form name="contact-2" class="contact-form" onsubmit="handleFormSubmit(event)" method="POST"
+                  data-netlify="true" data-form-id="form3">
+                  <div class="form-group form-1">
+                    <input type="text" placeholder="Your name" name="name" autocomplete="off" class="form-name">
+                    <!-- spam -->
+                    <p style="display:none;">
+                      <label>Don’t fill this out: <input name="bot-field"></label>
+                    </p>
+                    <!--  -->
+                    <i class="ri-checkbox-circle-fill validation-icon name-icon"></i>
+                    <span class="error-show name-error"></span>
+                  </div>
+                  <div class="form-group form-2">
+                    <input type="email" placeholder="Your email" name="email" class="form-email" autocomplete="off">
+                    <!-- spam -->
+                    <p style="display:none;">
+                      <label>Don’t fill this out: <input name="bot-field"></label>
+                    </p>
+                    <!--  -->
+                    <i class="ri-checkbox-circle-fill validation-icon email-icon"></i>
+                    <span class="error-show email-error"></span>
+                  </div>
+                  <div class="form-group form-3">
+                    <textarea name="message" placeholder="Your message" class="form-message"></textarea>
+                  </div>
+                  <div class="modal-btn-box w-100 flex-center">
+                    <button type="submit" class="btn-style">Let’s Connect</button>
+                    <button type="button" class="btn-style btn-outline modal-close">Close</button>
+                  </div>
+                </form>
+                <div class="gif-container" data-form-id="form3">
+                  <img src="images/icons/Success.gif" alt="Success gif">
+                </div>
+
+              </div>
+            </div>
+            <div class="right-col-form">
+              <p class="mb-3">Or Reach Me Directly</p>
+              <ul>
+                <li><img loading="lazy" src="images/form/icon-1.svg" alt="address icon"><span>16, Anupama Road,
+                    Belghoria
+                    ,Kolkata 700065</span></li>
+                <li>
+                  <img loading="lazy" src="images/form/icon-2.svg" alt="Email icon">
+                  <a href="https://mail.google.com/mail/?view=cm&to=hridaysr10@gmail.com">hridaysr10@gmail.com</a>
+                </li>
+                <li>
+                  <img loading="lazy" src="images/form/icon-3.svg" alt="Phone icon">
+                  <a href="tel:+916289737695">+91 62897 37695</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+          <!-- <div class="success-msg">
+      <div class="msg-box"></div>
+    </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.8.1/dist/vanilla-tilt.min.js"></script>
+
+  <script src="https://unpkg.com/lenis@1.3.4/dist/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <script src="script/common.js" defer></script>
+  <script src="script/project.js" defer></script>
+</body>
+
+</html>
