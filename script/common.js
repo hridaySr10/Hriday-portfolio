@@ -172,7 +172,7 @@ backToTopBtns.forEach((btn) => {
 let validationIcon = document.querySelector(".validation-icon");
 
 function handleFormSubmit(event) {
-  event.preventDefault();
+  // event.preventDefault();
 
   const form = event.target;
   const nameInput = form.querySelector(".form-name");
@@ -211,6 +211,7 @@ function handleFormSubmit(event) {
 
   // --- 3. If validation is successful, show the GIF ---
   if (isValid) {
+    event.preventDefault();
     const formId = form.dataset.formId;
     const gifContainer = document.querySelector(
       `.gif-container[data-form-id="${formId}"]`
