@@ -211,7 +211,7 @@ function handleFormSubmit(event) {
 
   // --- 3. If validation is successful, show the GIF ---
   if (isValid) {
-    event.preventDefault();
+    
     const formId = form.dataset.formId;
     const gifContainer = document.querySelector(
       `.gif-container[data-form-id="${formId}"]`
@@ -427,3 +427,4 @@ window.addEventListener("click", function (event) {
     }, 300);
   }
 });
+
