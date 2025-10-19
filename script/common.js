@@ -1,6 +1,11 @@
 //..................content load............//
+let mains = document.querySelectorAll("main");
+
 window.onload = function () {
-  document.body.style.opacity = "1";
+  mains.forEach((main) => {
+    main.style.opacity = "1";
+    main.style.visibility = "visible";
+  });
 };
 
 //..............header scroll event..................//
@@ -211,7 +216,7 @@ function handleFormSubmit(event) {
 
   // --- 3. If validation is successful, show the GIF ---
   if (isValid) {
-    
+    event.preventDefault();
     const formId = form.dataset.formId;
     const gifContainer = document.querySelector(
       `.gif-container[data-form-id="${formId}"]`
@@ -427,4 +432,3 @@ window.addEventListener("click", function (event) {
     }, 300);
   }
 });
-
