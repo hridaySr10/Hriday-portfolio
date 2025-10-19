@@ -629,4 +629,11 @@
     width: 100%;
     height: 70%;
   }
+  .header-texture {
+    height: 600px;
+  }
+  .header-texture img {
+    position: absolute;
+    top: 0px;
+  }
 }
