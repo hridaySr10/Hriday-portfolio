@@ -66,6 +66,9 @@
   }
 }
 @media screen and (max-width: 1010px) {
+  .hero-btn {
+    justify-content: center;
+  }
   .section-hero {
     overflow: auto !important;
   }
@@ -335,13 +338,6 @@
   .hero-text p {
     text-align: center;
   }
-  .hero-btn {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 1rem;
-    justify-content: start;
-  }
   .motto-flex-box {
     width: 100%;
   }
@@ -511,6 +507,15 @@
   }
 }
 
+@media screen and (max-width: 432px) {
+  .hero-btn {
+    flex-direction: column !important;
+    justify-content: center;
+  }
+  .footer-btn {
+    flex-direction: column;
+  }
+}
 @media screen and (max-width: 426px) {
   .project-grid-box-mob .build-tools ul {
     padding: 0;

@@ -177,7 +177,7 @@ backToTopBtns.forEach((btn) => {
 let validationIcon = document.querySelector(".validation-icon");
 
 function handleFormSubmit(event) {
-  // event.preventDefault();
+  event.preventDefault();
 
   const form = event.target;
   const nameInput = form.querySelector(".form-name");
@@ -188,50 +188,33 @@ function handleFormSubmit(event) {
 
   let isValid = true;
 
-  // --- 2. Form Validation ---
-
-  // Reset previous errors and styles
+  // Reset previous errors
   nameError.textContent = "";
   emailError.textContent = "";
   messageInput.style.border = "1px solid #ccc";
 
-  // Validate Name: Must be at least 3 characters
+  // Validate Name
   if (nameInput.value.trim().length < 3) {
     nameError.textContent = "Full name is required.";
     isValid = false;
   }
 
-  // Validate Email: Must be a valid email format
+  // Validate Email
   const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   if (!emailPattern.test(emailInput.value.trim())) {
     emailError.textContent = "Please enter a valid email.";
     isValid = false;
   }
 
-  // Validate Message: Cannot be empty
+  // Validate Message
   if (messageInput.value.trim() === "") {
-    messageInput.style.border = "1px solid red"; // Show error with a red border
+    messageInput.style.border = "1px solid red";
     isValid = false;
   }
 
-  // --- 3. If validation is successful, show the GIF ---
+  // If validation passes, submit the form
   if (isValid) {
-    event.preventDefault();
-    const formId = form.dataset.formId;
-    const gifContainer = document.querySelector(
-      `.gif-container[data-form-id="${formId}"]`
-    );
-
-    if (gifContainer) {
-      form.style.display = "none";
-      gifContainer.style.display = "flex";
-
-      setTimeout(() => {
-        gifContainer.style.display = "none";
-        form.reset();
-        form.style.display = "flex";
-      }, 3000);
-    }
+    form.submit();
   }
 }
 
@@ -286,16 +269,14 @@ sr.reveal(".hero-text p", {
   opacity: 0,
   delay: 600,
 });
-sr.reveal(".hero-btn-1", {
+sr.reveal(".hero-btn", {
   origin: "bottom",
   // scale: 2,
+  distance: "200px",
   delay: 1200,
+  interval: 200,
 });
-sr.reveal(".hero-btn-2", {
-  origin: "bottom",
-  // scale: 2,
-  delay: 1400,
-});
+
 sr.reveal(".hero-img", {
   origin: "center",
   delay: 400,
@@ -358,6 +339,11 @@ sr.reveal(".footer-note", {
 });
 sr.reveal(".footer-btn", {
   origin: "bottom",
+  delay: 300,
+});
+sr.reveal(".resume-btn", {
+  origin: "bottom",
+  opacity: 1,
   delay: 300,
 });
 sr.reveal(".footer-btm-slide-up", {
