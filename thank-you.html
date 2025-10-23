@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You | Hriday Sarkar</title>
+
+  <!-- Load Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/media.css">
+
+
+</head>
+
+<body class="text-white">
+
+  <!-- Main Container -->
+  <div class="thanks-box full-height position-relative overflow-hidden">
+    <div class="container">
+      <div
+        class="row full-height d-flex justify-content-center align-items-center position-relative z-3 overflow-hidden">
+        <div class="col-11 col-md-8 col-lg-6 col-xl-5">
+
+          <!-- Thank You Card -->
+          <div class="thank-you-card p-4 p-md-5 text-center shadow-lg">
+
+            <!-- Success GIF -->
+            <img src="images/icons/Success.gif" alt="Success" class="mx-auto mb-4" style="width: 120px; height: 120px;">
+
+            <!-- Heading -->
+            <h1 class="display-5 fw-bold text-white mb-3">
+              Message Sent!
+            </h1>
+
+            <!-- Message -->
+            <p class="text-white-50 mb-5">
+              Thank you for reaching out. I'll get back to you as soon as possible.
+            </p>
+
+            <!-- Back to Home Button -->
+            <div class="back-home-btn">
+              <a href="index.html" class="hero-btn-2 btn-style get-in-touch-btn" id="homeButton">Back to Home</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="th-texture position-absolute"></div>
+    <div class="th-texture-2 position-absolute"></div>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.getElementById('homeButton').addEventListener('click', function (event) {
+      event.preventDefault();
+
+      const homeUrl = this.href;
+
+      document.body.classList.add('page-fade-out');
+
+      setTimeout(function () {
+        window.location.href = homeUrl;
+      }, 500);
+    });
+  </script>
+</body>
+
+</html>

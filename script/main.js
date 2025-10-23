@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", function () {
     btn1: `
   <div class="info info-opacity fade">
   <p class="mb-3">Hey there, I’m Hriday — a budding web designer and developer passionate about creating sleek, user-friendly and responsive websites. I recently completed a Web Design and Development course at <span class="about-me-span">Moople Institute of Design and Animation</span>, where I honed my skills in building responsive and accessible digital experiences.</p>
-<p>I stay active on LinkedIn and GitHub to share my work and learn from the community. Outside of coding, I enjoy <span class="about-me-span">watching Dr.Vivek Bindra videos on business</span>, <span class="about-me-span">physical activity</span> and <span class="about-me-span">exploring new places</span>, which keep me creative and energized.</p>
+<p>I stay active on LinkedIn and GitHub to share my work and learn from the community. Outside of coding, I enjoy Watching <span class="about-me-span">business case studies and motivational content</span> for professional growth and <span class="about-me-span">exploring new places</span>, which keep me creative and energized.</p>
   </div>
   
   `,
