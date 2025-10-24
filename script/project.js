@@ -28,7 +28,7 @@ filterBtns.forEach((button) => {
 //...................pagination tab active state............//
 
 let uiPaginationTabs = document.querySelectorAll(
-  "#project-uiux .pagination-tab , #project-frontend .pagination-tab"
+  "#project-uiux .pagination-tab"
 );
 uiPaginationTabs.forEach((tabs) => {
   tabs.addEventListener("click", () => {
@@ -58,9 +58,9 @@ let projectAllPaginationTabs = document.querySelectorAll(
 projectAllPaginationTabs.forEach((tabs) => {
   tabs.addEventListener("click", () => {
     projectAllPaginationTabs.forEach((tab) => {
-      tab.classList.remove("pagination-tab-active");
+      tab.classList.remove("pagination-all-tab-active");
     });
-    tabs.classList.add("pagination-tab-active");
+    tabs.classList.add("pagination-all-tab-active");
   });
 });
 
