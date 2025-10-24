@@ -2281,6 +2281,10 @@ footer .back-to-top.show {
   background-color: var(--main-color);
   color: var(--page-color);
 }
+#project-all .pagination-tab.pagination-all-tab-active {
+  background-color: var(--main-color);
+  color: var(--page-color);
+}
 
 /***** project modal *****/
 .modal {
