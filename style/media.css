@@ -631,7 +631,7 @@
 
 @media screen and (min-width: 1920px) {
   .section-project .project-grid-box .project-image {
-    width: 100%;
+    width: 80%;
     height: 70%;
   }
   .header-texture {
@@ -663,3 +663,4 @@
     height: 400px;
   }
 }
+
