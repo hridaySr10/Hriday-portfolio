@@ -2326,12 +2326,11 @@ footer .back-to-top.show {
   display: grid;
   grid-template-rows: auto;
   height: auto;
-  gap: 1rem;
+  gap: 2rem;
 }
 .modal-content .modal-content-grid-box .project-video-box {
   width: 100%;
   height: auto;
-  margin-bottom: 3rem;
   overflow: hidden;
   border-radius: 6px;
   -webkit-border-radius: 6px;
@@ -2483,4 +2482,5 @@ footer .back-to-top.show {
   }
 }
 /***** End tank-you page *****/
+
 
