@@ -662,5 +662,10 @@
     width: 443px;
     height: 400px;
   }
+  .modal-content .modal-content-grid-box .project-video-box video{
+    width: auto;
+    height: 613px;
+  }
 }
+
 
