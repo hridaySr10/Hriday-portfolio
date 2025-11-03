@@ -583,6 +583,7 @@ nav.mob-nav ul li a::after {
   justify-content: start;
   position: relative;
   z-index: 4;
+  height: 63px;
 }
 .hero-btn button:nth-child(2) {
   background-color: transparent;
@@ -909,6 +910,7 @@ nav.mob-nav ul li a::after {
 }
 .resume-btn {
   margin-top: max(2rem, 5vw);
+  height: 63px !important;
 }
 .texture-2 {
   width: 100%;
@@ -2481,3 +2483,4 @@ footer .back-to-top.show {
   }
 }
 /***** End tank-you page *****/
+
