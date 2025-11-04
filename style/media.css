@@ -511,6 +511,7 @@
   .hero-btn {
     flex-direction: column !important;
     justify-content: center;
+    height: auto;
   }
   .footer-btn {
     flex-direction: column;
@@ -670,3 +671,4 @@
     height: 661px;
   }
 }
+
